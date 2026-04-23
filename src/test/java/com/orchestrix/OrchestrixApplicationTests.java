@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.orchestrix;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest(properties = {
 		"spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration"
 })
-class DemoApplicationTests {
+class OrchestrixApplicationTests {
 
 	@Test
 	void contextLoads() {
